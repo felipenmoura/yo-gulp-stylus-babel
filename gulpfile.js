@@ -87,8 +87,6 @@ gulp.task('styl', function () {
 /* JS (BABEL) */
 var minify = require('gulp-minify'),
     browserify = require('gulp-browserify'),
-    watchify = require('watchify'),
-    babelify = require('babelify'),
     source = require('vinyl-source-stream'),
     buffer = require('vinyl-buffer'),
     concat = require('gulp-concat'),
